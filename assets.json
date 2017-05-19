@@ -1,0 +1,20 @@
+{
+	"assetsJs": [
+		"./libs/angular/angular.min.js",
+		"./libs/angular-ui-router/angular-ui-router.min.js",
+		"./libs/angular-resource/angular-resource.min.js"
+	],
+	"appJs": [
+		"./src/app/app.js",
+		"./src/app/controller/*.js",
+		"./src/app/config/*.js",
+		"./src/app/plugins/*.js",
+		"./src/app/service/*.js",
+		"./src/app/directive/*.js",
+		"./src/app/filter/*.js",
+		"./src/public/style/*.js"
+	],
+	"appCss": [
+		"./src/public/css/*.css"
+	]
+}

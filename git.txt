@@ -1,0 +1,6 @@
+﻿echo "# vue-webpack-webapp" >> README.md
+git init
+git add .
+git commit -m "init 初始化"
+git remote add origin https://github.com/aizxin/angular_gulp_demo.git
+git push -u origin master

@@ -1,0 +1,27 @@
+<!-- admin -->
+<div class="layui-layout layui-layout-admin">
+    <!-- 添加skin-1类可手动修改主题为纯白，添加skin-2类可手动修改主题为蓝白 -->
+    <!-- header -->
+    <nd-comnav></nd-comnav>
+    <!-- side -->
+    <nd-nav></nd-nav>
+    <!-- body -->
+    <div class="layui-body my-body">
+        <div class="layui-tab layui-tab-card my-tab" lay-filter="card" lay-allowClose="true">
+            <ul class="layui-tab-title">
+                <li class="layui-this" lay-id="0"><span>欢迎页</span></li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <!-- <iframe id="iframe" src="demo/welcome.html" frameborder="0"></iframe> -->
+                    <div ui-view></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="layui-footer my-footer">
+        <p><a href="http://vip-admin.com" target="_blank">vip-admin后台模板v1.6.0</a>&nbsp;&nbsp;&&nbsp;&nbsp;<a href="http://vip-admin.com/index/gather/index.html" target="_blank">vip-admin管理系统v1.1.0</a></p>
+        <p>2017 © copyright 蜀ICP备17005881号</p>
+    </div>
+</div>
